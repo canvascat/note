@@ -284,3 +284,12 @@ node-sass -w common.scss common.css --output-style expanded
 - expanded：没有缩进的、扩展的css代码。
 - compact：简洁格式的css代码。
 - compressed：压缩后的css代码。
+
+```css
+<!-- 文本溢出省略号代替 -->
+.cut {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+```
