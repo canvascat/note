@@ -94,7 +94,7 @@ class Parent {
         console.log('parent init');
     }
     say () {
-        console.log('saying...);
+        console.log('saying...');
     }
 }
 class Child extends Parent {
