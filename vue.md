@@ -80,6 +80,41 @@ company.duoyi // ojbk
 
 对象的合并 `Object.assign(target, source)`
 
+```js
+Object keys(obj).foreach(function(key) {
+    key, obj[key]
+})
+delete obj.property
+delete obj['property']
+```
+
+```js
+// localStorage方法
+getItem(key) // 获取key对应的value
+key(index) // 获取对应索引的key
+length() // 长度
+removeItem(key)
+setItem(key, value)
+claer() //清除所有key-value
+
+```
+
+浅拷贝: 双向改变, 指向同一片内存空间
+
+深拷贝: 开辟一块新的内存地址, 将原对象的各个属相逐个复制进去, 对拷贝对象和源对象各自操作互不影响.
+
+```js
+// 浅拷贝
+// 引用复制
+Object.assign({}, obj) // 将obj的属性拷贝给{},并返回{}
+// 深拷贝
+JSON.parse(JSON.stringify(obj)) //obj->json->obj
+arr.slice(0)
+arr.concat()
+```
+
+
+
 ### 类
 
 class只是原型链的语法糖表现形式
@@ -293,3 +328,52 @@ node-sass -w common.scss common.css --output-style expanded
     text-overflow: ellipsis;
 }
 ```
+
+
+
+## 生命周期钩子
+
+```js
+export default {
+    data() {
+        return {
+            a: 1
+        }
+    },
+    computed: {
+        b() {
+            return a * 2
+        }
+    },
+    beforeCreate() {
+        this.a // undefined
+       	this.b // undefined
+    },
+    created() {
+        this.a // 1
+        this.b // 2
+    },
+    beforeMount() {
+        this.a // 1
+        this.b // 2
+    },
+    mounted() {
+        this.a // 1
+        this.b // 2
+    }
+}
+```
+
+
+
+对于`Internet Explorer`、`Chrome`、`Firefox`、`Opera`、`Safari`：
+
+- `window.innerHeight` ：浏览器窗口的内部高度
+- `window.innerWidth`：浏览器窗口的内部宽度
+
+
+
+* [Marked简明手册](http://www.cnblogs.com/djtao/p/6224399.html) *
+* [chrome插件下载](http://alyzq.com/?p=627)
+
+
