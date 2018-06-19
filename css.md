@@ -10,7 +10,7 @@
 粘性定位(sticky)
 
 ```css
-#box {
+div {
     postion: sticky;
     top: 10px;
 }
@@ -28,6 +28,17 @@
 `blur-radius`阴影模糊程度
 
 `spread-radius` 阴影扩大+缩小-
+
+```css
+img {
+    /* 灰度，彩色变黑白 */
+    filter: grayscale(100%);
+    /* 边框样式： 无/点线/虚线/实线/双线/槽线/脊线/凹边/凸边 */
+    border-style: none/dotted/dashed/solid/double/groove/ridge/inset/outset;
+    /* 鼠标指针样式： 默认手加号移动等待帮助输入 */
+    cursor: default/pointer/crosshair/move/wait/help/text/progress;
+}
+```
 
 [dict](https://www.zhihu.com/question/21685773)
 
