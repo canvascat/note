@@ -14,12 +14,43 @@
       border-color: brown;
       cursor: pointer;
     }
+    .wrapper {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      background-color: aqua;
+    }
+    .wrapper > ul {
+      position: absolute;
+      white-space: nowrap;
+    }
+    .wrapper > ul > li {
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
   <div class="header"></div>
   <div class="main">
     <div class="box"></div>
+    <div class="wrapper" id="wrapper">
+      <ul>
+        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+      </ul>
+    </div>
+    <script src="./iscroll.js"></script>
+    <script>
+      new IScroll('#wrapper', {
+        scrollbars: true,
+        scrollX: true,
+        scrollY: false
+      })
+    </script>
   </div>
   <div class="footer"></div>
 </body>
