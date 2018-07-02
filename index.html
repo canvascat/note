@@ -27,6 +27,58 @@
     }
     .wrapper > ul > li {
       display: inline-block;
+      width: 544px; height: 184px;
+    }
+    .footer:empty {
+      width: 10px;height: 10px;
+      background-color: aqua;
+    }
+    #check[type="checkbox"] {
+      display: none;
+    }
+    .element {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .25s;
+    }
+    :checked ~ .element {
+      max-height: 666px;
+    }
+    :checked ~ .check-in {
+      display: none;
+    }
+    .check-out {
+      display: none;
+    }
+    :checked ~ .check-out {
+      display: inline;
+    }
+    img::before {
+      /* 淡蓝色占位背景 */
+      content: "";
+      position: absolute; left: 0;
+      width: 100%; height: 100%;
+      background-color: #f0f3f9;
+      visibility: visible;
+    }
+    img::after {
+      content: attr(alt);
+      position: absolute;bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      transition: transform .2s;
+    }
+    img:hover::after {
+      transform: translateY(0);
+    }
+    .counter {
+      list-style: none;
+      counter-reset: num 0;
+      /* counter-increment: num; */
+    }
+    .counter li::before {
+      content: counter(num);
+      counter-increment: num;
     }
   </style>
 </head>
@@ -36,7 +88,7 @@
     <div class="box"></div>
     <div class="wrapper" id="wrapper">
       <ul>
-        <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
+        <li><img src="" alt="google"></li>
         <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
         <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
         <li><img src="https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></li>
@@ -52,6 +104,103 @@
       })
     </script>
   </div>
-  <div class="footer"></div>
+  <div class="footer"><span></span></div>
+  <input id="check" type="checkbox">
+  <p>个人觉得，...</p>
+  <div class="element">
+    <p>display:table-cell其他...</p>
+  </div>
+  <label for="check" class="check-in">更多↓</label>
+  <label for="check" class="check-out">收起↑</label>
+  <style>
+    .xl {
+      position: relative;
+      height: 30px;
+      width: 100px;
+      background-color: antiquewhite;
+    }
+    .xl > label {
+      display: inline-block;
+    }
+    .xl > ul {
+      position: absolute;
+      top: 15px;
+      background-color: #aaa;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .5s;
+    }
+    .xl input[type="checkbox"] {
+      display: none;
+    }
+    .xl input[type="checkbox"]:checked ~ ul {
+      max-height: 500px;
+    }
+    .xl input[type="checkbox"] + label::after {
+      content: '+';
+      display: inline;
+    }
+    .xl input[type="checkbox"]:checked + label::after {
+      content: '-';
+    }
+  </style>
+  <div class="xl">
+    <input type="checkbox" id="check1">
+    <label for="check1">未完成</label>
+    <ul>
+      <li>拉普拉斯</li>
+      <li>派克</li>
+      <li>戴维南</li>
+    </ul>
+  </div>
+  <script>
+    var xl = document.querySelector('.xl')
+    document.addEventListener('click', function(e) {
+      var _e = e || window.e
+      var el = e.srcElement || e.target
+      while (el) {
+        if (el.id == 'xl') {
+          return
+        }
+        el = el.parentNode
+      }
+      // document.querySelector('#check1').setAttribute('checked', false)
+    })
+  </script>
+  <ul class="counter">
+    <li>3</li>
+    <li>3</li>
+    <li>3</li>
+    <li>3</li>
+    <li>3</li>
+  </ul>
+  <style>
+    .ol {
+      list-style: none;
+      counter-reset: ol;
+    }
+    .li::before {
+      content: counters(ol, '-') '. ';
+      counter-increment: ol;
+    }
+  </style>
+  <ol class="ol">
+    <li class="li">
+      hhhhhhh
+      <ol class="ol">
+        <li class="li">dhas</li>
+        <li class="li">dhas
+          <ol class="ol">
+            <li class="li">dasfas</li>
+            <li class="li">dasfas</li>
+          </ol>
+        </li>
+        <li class="li">dhas</li>
+        <li class="li">dhas</li>
+      </ol>
+    </li>
+    <li class="li">fasf</li>
+    <li class="li">fasdas</li>
+  </ol>
 </body>
 </html>
