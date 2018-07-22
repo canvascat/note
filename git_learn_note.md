@@ -35,3 +35,6 @@ git commit -m '提交信息'
 新建文件在没有`git add`之前的状态是Untracked的
 add后会变为changes to be committed（已暂存）
 commit后则是nothing to commit, working tree clean
+
+### 3. 管理修改
+`cat <fileName>` 在终端预览文件内容
