@@ -45,3 +45,19 @@ commit后则是nothing to commit, working tree clean
 ### 4. 撤销修改
 `git checkout -- <fileName>` 回到最后一次 `git add`/`git commit` 时的状态，即删除所以未暂存的内容，丢弃工作区的修改
 `git reset HEAD <fileName>` 撤销暂存区的修改（撤销 `git add` ）
+
+### 5. 删除文件
+`rm <fileName>` 删除文件
+`git rm <fileName>` 从版本库删除文件
+
+## 远程仓库
+`git remote add origin xxx` 将本地仓库与远程仓库关联
+`git push -u origin master` 将当前分支 master 推送到远程仓库，第一次添加`-u`会将本地 master 分支推送到远程新的 master 分支，并关联起来
+`git clone xxx` 从远程仓库克隆到本地
+git 支持 ssh 和 https 协议，但是 ssh 支持的原生 git 协议速度更快
+
+### 1. 分支管理
+
+#### 创建与合并分支
+HEAD 指向当前分支
+
