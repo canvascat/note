@@ -73,5 +73,18 @@ git merge dev # 将dev分支合并到当前分支
 ```
 `git merge`s 合并指定分支到当前分支
 `git branch -d dev` 删除 dev 分支
+`git log --graph` 查看分支合并图（详细）
+`git log --graph --pretty=oneline --abbrev-commit` 查看分支合并情况
+`git log --graph --oneline` 建议使用
+> git无法自动合并分支，如果有冲突就必须解决冲突，然后再提交。
 
-合并dev和master分支
+#### 分支管理策略
+`git merge --no-ff -m 'merge with no-ff' dev` 合并分支（禁用fast forward）
+
+#### 多人协作
+`git remote -v` 查看远程仓库信息
+`git push origin master` 推送本地库到master分支
+`git checkout -b dev origin/dev` 创立并切换到本地dev分支
+push时遇到冲突
+`git pull` 抓取，然后在本地合并解决冲突后在push
+`git branch --set-upstream dev origin/dev` 建立本地dev和远程origin/dev的链接
