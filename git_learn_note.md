@@ -67,3 +67,8 @@ git branch dev # 创建dev分支
 git checkout dev # 切换到dev分支
 ```
 `git branch` 查看当前分支
+```bash
+git checkout master # 切换到master分支
+git merge dev # 将dev分支合并到当前分支
+```
+`git merge`s 合并指定分支到当前分支
