@@ -60,4 +60,10 @@ git 支持 ssh 和 https 协议，但是 ssh 支持的原生 git 协议速度更
 
 #### 创建与合并分支
 HEAD 指向当前分支
-
+`git checkout -b dev` 创建并切换到 dev 分支
+相当于
+```bash
+git branch dev # 创建dev分支
+git checkout dev # 切换到dev分支
+```
+`git branch` 查看当前分支
