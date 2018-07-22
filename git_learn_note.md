@@ -41,3 +41,7 @@ commit后则是nothing to commit, working tree clean
 `git commit` 只会提交 `git add` 后暂存区的内容
 如果`git add`后再进行修改然后`git commit`就只会提交`git add`之前的内容
 `git diff HEAD -- <fileName>` 查看工作区内文件和版本库中的差异
+
+### 4. 撤销修改
+`git checkout -- <fileName>` 回到最后一次 `git add`/`git commit` 时的状态，即删除所以未暂存的内容，丢弃工作区的修改
+`git reset HEAD <fileName>` 撤销暂存区的修改（撤销 `git add` ）
