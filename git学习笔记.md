@@ -22,4 +22,7 @@ git commit -m '提交信息'
 ```
 
 ### 1. 版本回退
-
+`git log` 查看最近三条提交日志
+`git log --pretty=oneline` 单行显示所以日志
+`git reset --head HEAD^` 回退到上个版本
+`git reset --head <commitId>` 回退到指定版本
