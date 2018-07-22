@@ -87,4 +87,4 @@ git merge dev # 将dev分支合并到当前分支
 `git checkout -b dev origin/dev` 创立并切换到本地dev分支
 push时遇到冲突
 `git pull` 抓取，然后在本地合并解决冲突后在push
-`git branch --set-upstream dev origin/dev` 建立本地dev和远程origin/dev的链接
+`git branch --set-upstream origin dev` 建立本地dev和远程dev的链接并push
