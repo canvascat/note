@@ -5,6 +5,16 @@
 `npm install sass --save`
 依赖`node-sass`和`sass-loader`
 
+### 离线环境安装node-sass
+
+1. 首先需要download node-sass Binary文件
+    运行`node -p "[process.platform, process.arch, process.versions.modules].join('-')"`获取版本
+2. 下载地址: [cnpm](https://npm.taobao.org/mirrors/node-sass) [GitHub](https://github.com/sass/node-sass/releases)
+`win32-x64-57` 则下载 `win32-x64-57_binding.node`
+3. 将下载好的Binary文件存放在本地后指定node-sass源文件地址
+`npm config set sass-binary-path C:/xxx...xxx/win32-x64-57_binding.node`
+4. 最后使用`npm install node-sass`进行安装
+
 ## 语法
 
 ### 1.变量
