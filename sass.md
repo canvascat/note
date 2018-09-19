@@ -15,6 +15,20 @@
 `npm config set sass-binary-path C:/xxx...xxx/win32-x64-57_binding.node`
 4. 最后使用`npm install node-sass`进行安装
 
+## 使用
+
+### sass文件监视器的创建：
+
+监听命令: 
+`node-sass -w xxx.scss xxx.css --output-style expanded`
+
+### SASS提供四个编译风格的选项：
+
+* nested：嵌套缩进的css代码，它是默认值。
+* expanded：没有缩进的、扩展的css代码。
+* compact：简洁格式的css代码。
+* compressed：压缩后的css代码。
+
 ## 语法
 
 ### 1.变量
