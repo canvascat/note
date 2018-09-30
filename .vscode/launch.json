@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/shudu.js"
+      "program": "${workspaceFolder}/test.js"
     }
   ]
 }
