@@ -15,6 +15,8 @@
 `npm config set sass-binary-path C:/xxx...xxx/win32-x64-57_binding.node`
 4. 最后使用`npm install node-sass`进行安装
 
+> [参考文章](http://ju.outofmemory.cn/entry/73170)
+
 ## 使用
 
 ### sass文件监视器的创建：
