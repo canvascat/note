@@ -1,4 +1,4 @@
-class Ripple{
+class Ripple {
   static get inputProperties() {
     return ['background-color', '--ripple-color', '--animation-tick', '--ripple-x', '--ripple-y'];
   }
