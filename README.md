@@ -36,6 +36,9 @@ tools
 - [weather app for the terminal](https://github.com/schachmat/wego)
 - [网易云音乐ncm格式转换](https://github.com/anonymous5l/ncmdump)
 - a web proxy tool [XX-Net](https://github.com/XX-net/XX-Net)
+- json-server
+- browser-sync
+- [Linux命令行下载工具](https://linux.cn/article-7369-1.html)
 
 书籍
 [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
