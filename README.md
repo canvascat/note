@@ -39,6 +39,8 @@ tools
 - json-server
 - browser-sync
 - [Linux命令行下载工具](https://linux.cn/article-7369-1.html)
+- [github汉化脚本](https://github.com/52cik/github-hans)，需要配合猴油脚本使用
+- [GitHub help](https://help.github.com/cn)
 
 书籍
 [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
