@@ -1,105 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <style>
-    body {
-      margin: 0;
-      margin-left: calc(100vw - 100%);
-    }
-    .center-wrapper {
-      width: 1200px;
-      margin: 0 auto;
-    }
-    .yes-btn {
-      padding: 6px 16px;
-      border: 1px solid #446d88;
-      background: #58a linear-gradient(#77a0bb, #58a);
-      border-radius: 4px;
-      box-shadow: 0 1px 5px gray;
-      color: white;
-      text-shadow: 0 -1px 1px #335166;
-      font-size: 20px;
-      line-height: 1.5;
-    }
-    #ripple {
-      width: 300px;
-      height: 300px;
-      border-radius: 150px;
-      font-size: 5em;
-      background-color: rgb(255, 64, 129);
-      border: 0;
-      box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
-      color: white;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #ripple {
+        text-align: center;
+        border-radius: 4px;
+        padding: 12px 20px;
+        font-size: 14px;
+        background-color: #409eff;
+        border: 0;
+        color: white;
+        outline: none;
 
-      --ripple-x: 0;
-      --ripple-y: 0;
-      --ripple-color: rgba(255, 255, 255, 0.54);
-      --animation-tick: 0;
-    }
+        --ripple-x: 0;
+        --ripple-y: 0;
+        --ripple-color: rgba(255, 255, 255, 0.54);
+        --animation-tick: 0;
+      }
 
-    #ripple:focus {
-      outline: none;
-    }
+      #ripple.animating {
+        background-image: paint(ripple);
+      }
+    </style>
 
-    #ripple.animating {
-      background-image: paint(ripple);
-    }
-  </style>
-</head>
-<body>
-  <div class="center-wrapper">
     <button id="ripple">
-      Click me!
+      Button
     </button>
-    <!-- <button class="yes-btn">yse!</button>
-    <div class="add-height"></div>     -->
-  </div>
 
-  <script>
-    // setTimeout(() => {
-    //   document.querySelector('.add-height').style.height = '2000px'
-    // }, 4000);
-    // 判断是否在https或localhost环境下
-    if (location.protocol === 'http:' && location.hostname !== 'localhost')
-      location.protocol = 'https:';
-    if ('paintWorklet' in CSS) {
-      // CSS注册一个paintworklet图像
-      CSS.paintWorklet.addModule('paintworklet.js');
-    } else {
-      document.body.innerHTML =
-        'You need support for <a href="https://drafts.css-houdini.org/css-paint-api/">CSS Paint API</a> to view this demo :(';
-    }
+    <script>
+      // 判断是否在https或localhost环境下
+      if (location.protocol === 'http:' && location.hostname !== 'localhost')
+        location.protocol = 'https:'
+      if ('paintWorklet' in CSS) {
+        // CSS注册一个paintworklet图像
+        CSS.paintWorklet.addModule('paintworklet.js')
+      } else {
+        document.body.innerHTML =
+          'You need support for <a href="https://drafts.css-houdini.org/css-paint-api/">CSS Paint API</a> to view this demo :('
+      }
 
-    const button = document.querySelector('#ripple');
-    // window.performance.now() 返回一个时间戳,以毫秒为单位,精确到千分之一毫秒.
-    let start = performance.now();
-    let x, y;
-    document.querySelector('#ripple').addEventListener('click', evt => {
-      // 添加class
-      button.classList.add('animating');
-      // 获取点击坐标
-      [x, y] = [evt.clientX, evt.clientY];
-      start = performance.now();
+      const button = document.querySelector('#ripple')
+      // window.performance.now() 返回一个时间戳,以毫秒为单位,精确到千分之一毫秒.
+      let start = performance.now()
+      let x, y
+      document.querySelector('#ripple').addEventListener('click', event => {
+        // 添加class
+        button.classList.add('animating')
+        // 获取点击坐标
+        ;[x, y] = [event.clientX, event.clientY]
+        start = performance.now()
 
-      // window.requestAnimationFrame() 方法告诉浏览器您希望执行动画并请求浏览器在下一次重绘之前调用指定的函数来更新动画。
-      requestAnimationFrame(function raf(now) {
-        // console.log(now)
-        const count = Math.floor(now - start);
-        button.style.cssText = `--ripple-x: ${x}; --ripple-y: ${y}; --animation-tick: ${count};`;
-        // 大于1000时消失并停止动画
-        if (count > 1000) {
-          button.classList.remove('animating');
-          button.style.cssText = `--animation-tick: 0`;
-          return;
-        }
-        requestAnimationFrame(raf);
+        // window.requestAnimationFrame() 方法告诉浏览器您希望执行动画并请求浏览器在下一次重绘之前调用指定的函数来更新动画。
+        // callback 下一次重绘之前更新动画帧所调用的函数(即上面所说的回调函数)。
+        // 该回调函数会被传入DOMHighResTimeStamp参数，该参数与performance.now()的返回值相同，它表示requestAnimationFrame() 开始去执行回调函数的时刻。
+        requestAnimationFrame(function raf(now) {
+          const count = ~~(now - start)
+          button.style.cssText = `--ripple-x: ${x}; --ripple-y: ${y}; --animation-tick: ${count};`
+          // 大于1000时消失并停止动画
+          if (count > 1000) {
+            button.classList.remove('animating')
+            button.style.cssText = `--animation-tick: 0`
+            return
+          }
+          requestAnimationFrame(raf)
+        })
       })
-    })
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
