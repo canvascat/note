@@ -40,8 +40,8 @@ tools
 - a web proxy tool [XX-Net](https://github.com/XX-net/XX-Net)
 - json-server
 - browser-sync
-- [Linux命令行下载工具](https://linux.cn/article-7369-1.html)
-- [github汉化脚本](https://github.com/52cik/github-hans)，需要配合猴油脚本使用
+- [Linux 命令行下载工具](https://linux.cn/article-7369-1.html)
+- [github 汉化脚本](https://github.com/52cik/github-hans)，需要配合猴油脚本使用
 - [GitHub help](https://help.github.com/cn)
 - [Linux 命令行下载工具](https://linux.cn/article-7369-1.html)
 - [VS Code 插件下载链接转换工具](http://xocode.coding.me/vscode-ext-downlink/)
@@ -50,5 +50,7 @@ tools
 - [leetcode 解题](https://github.com/azl397985856/leetcode)
 
 书籍
-[https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
-[https://github.com/threerocks/studyFiles](https://github.com/threerocks/studyFiles)
+
+- [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
+- [https://github.com/threerocks/studyFiles](https://github.com/threerocks/studyFiles)
+- [ts 入门](https://ts.xcatliu.com/)
