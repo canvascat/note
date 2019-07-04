@@ -43,6 +43,8 @@ tools
 - [Linux 命令行下载工具](https://linux.cn/article-7369-1.html)
 - [VS Code 插件下载链接转换工具](http://xocode.coding.me/vscode-ext-downlink/)
 - [缓动函数速查表](http://www.xuanfengge.com/easeing/easeing/)、[Ceaser](http://xuanfengge.com/easeing/ceaser/)、[cubic-bezier](http://cubic-bezier.com/)
+- [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
+- [leetcode 解题](https://github.com/azl397985856/leetcode)
 
 书籍
 [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="url" method="post" enctype="multipart/form-data">
+      <input type="file" name="myfile" id="myfile" />
+      <input type="submit" value="update" />
+    </form>
+  </body>
+  <script>
+    const url = document.querySelector('form').getAttribute('action')
+
+    // 前端读取文件内容后以二进制格式上传
+    const fileReader = new FileReader()
+    fileReader.onload = () => {
+      const len = this.result.length
+      const data = new ArrayBuffer(len)
+      const ui8a = new Uint8Array(data, 0)
+      for (let i = 0; i < len; i++) {
+        ui8a[i] = this.result.charCodeAt(i) & 0xff
+      }
+    }
+    const file = document.querySelector('#myfile').files[0]
+    fileReader.readAsBinaryString(file)
+    function imgToBase64(params) {}
+
+    document.createElement('canvas').getContext('2d')
+
+    // formData异步上传
+    const formData = new FormData()
+    formData.append('file', file)
+    axios.post(url, formData)
+
+    // 文件切片
+    function fileSlice(file, piece = 1024 * 1024 * 5) {
+      const chunks = []
+      const fileSize = file.size
+
+      let start = 0
+      while (start < fileSize) {
+        chunks.push(file.slice(start, (start += piece)))
+      }
+
+      return chunks
+    }
+    function fileChunksUpdate(chunks) {
+      for (let i = 0, len = chunks.length; i < len; i++) {
+        const fd = new FormData()
+        fd.append(chunks[i])
+        axios.post(url, fd)
+      }
+    }
+  </script>
+</html>
