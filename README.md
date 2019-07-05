@@ -20,6 +20,10 @@ js
 - [css modules](https://github.com/css-modules/css-modules)
 - Markdown editor [stackedit](https://github.com/benweet/stackedit)
 - Markdown editor[slate](https://github.com/ianstormtaylor/slate)
+- [ElectronDocs](https://electronjs.org/docs)
+- [webpack](https://webpack.docschina.org/)
+- [Eslint](https://cn.eslint.org)
+- [socket.io](https://github.com/socketio/socket.io)
 
 python
 
@@ -48,6 +52,7 @@ tools
 - [缓动函数速查表](http://www.xuanfengge.com/easeing/easeing/)、[Ceaser](http://xuanfengge.com/easeing/ceaser/)、[cubic-bezier](http://cubic-bezier.com/)
 - [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [leetcode 解题](https://github.com/azl397985856/leetcode)
+- [Chrome 安装包下载](https://www.google.cn/chrome/browser/desktop/index.html?standalone=1&platform=win64)
 
 书籍
 
