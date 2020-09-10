@@ -7,7 +7,7 @@
 ### js
 - 针对面试应该比较有用 [神三元的博客](http://47.98.159.95/my_blog/)
 - [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37)
-- 应该是最好的开源的JS学习资料之一了 --> [The Modern JavaScript Tutorial](https://zh.javascript.info/)
+- 开源的JS学习资料 --> [The Modern JavaScript Tutorial](https://zh.javascript.info/),[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
 - Vue.js 技术揭秘：https://ustbhuangyi.github.io/vue-analysis/algorithms
 - 算法救命稻草 -> [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - js音频可视化, 之前做语音进度条借鉴(~~抄袭~~)过大量源码 [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
