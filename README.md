@@ -73,3 +73,5 @@
 - [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
 - [https://github.com/threerocks/studyFiles](https://github.com/threerocks/studyFiles)
 - [ts 入门](https://ts.xcatliu.com/)
+- [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go)
+- [fucking-algorithm（算法）](https://github.com/labuladong/fucking-algorithm)
