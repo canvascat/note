@@ -21,6 +21,7 @@
 - 这个算是轻松简单吧 [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 - [前端性能优化](https://github.com/gauseen/blog/issues/13)
 - node监听文件变化，`fs.watch`是真的难用，试试这个🚀 -> [chokidar](https://github.com/paulmillr/chokidar)
+- [CSS 权威指南第四版 中文](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
 
 -----
 
