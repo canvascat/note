@@ -1,6 +1,6 @@
 # CSS 选择器
 
-> 注：《CSS选择器世界》归纳
+> 注：《CSS 选择器世界》归纳
 
 ## 基本概念
 
@@ -213,3 +213,37 @@ console.log('1'.charCodeAt().toString(16)); // 结果是31
 ```
 
 `document.querySelectorAll('#box div div').length` 和 `document.querySelector('#box').querySelectorAll('div div').length` 分别输出什么呢？前者输出 1 不用过多解释，而后者却输出 3。仔细想一想，`querySelectorAll('div div')`是满足`div div`选择器的元素，与之前的`document.querySelector('#box')`是相互独立的，也就是查询`#box`元素的子元素中满足`div div`选择器条件的 DOM 元素。
+
+## 其他
+
+定义 `input placeholder` 样式
+
+```css
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+::-ms-input-placeholder {
+}
+```
+
+```css
+.box {
+  /* inset|offset-x|offset-y|blur-radius|spread-radius|color */
+  box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+```
+
+`blur-radius`阴影模糊程度
+
+`spread-radius` 阴影扩大+缩小-
+
+```css
+img {
+  /* 灰度，彩色变黑白 */
+  filter: grayscale(100%);
+  /* 边框样式： 无/点线/虚线/实线/双线/槽线/脊线/凹边/凸边 */
+  border-style: none/dotted/dashed/solid/double/groove/ridge/inset/outset;
+  /* 鼠标指针样式： 默认手加号移动等待帮助输入 */
+  cursor: default/pointer/crosshair/move/wait/help/text/progress;
+}
+```
