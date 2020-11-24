@@ -24,7 +24,7 @@
 - [CSS 权威指南第四版 中文](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
 - [VSCode解析1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode解析2](https://codeteenager.github.io/vscode-analysis/)
 - [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
-
+- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript)
 -----
 
 - [Lodash 的替代方法](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore)
