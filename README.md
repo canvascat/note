@@ -23,6 +23,7 @@
 - node监听文件变化，`fs.watch`是真的难用，试试这个🚀 -> [chokidar](https://github.com/paulmillr/chokidar)
 - [CSS 权威指南第四版 中文](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
 - [VSCode解析1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode解析2](https://codeteenager.github.io/vscode-analysis/)
+- [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
 
 -----
 
