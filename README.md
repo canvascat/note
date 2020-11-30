@@ -44,6 +44,7 @@
 - [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [leetcode 解题](https://github.com/azl397985856/leetcode)
 - [Chrome 安装包下载](https://www.google.cn/chrome/browser/desktop/index.html?standalone=1&platform=win64)
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 
    _下面这些用途不大的_
 -----------
