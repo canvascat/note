@@ -24,7 +24,7 @@
 - [CSS 权威指南第四版 中文](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
 - [VSCode解析1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode解析2](https://codeteenager.github.io/vscode-analysis/)
 - [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
-- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript)
+- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / js注释[JSDoc](https://jsdoc.zcopy.site/)
 - [Promises/A+规范 CN](https://www.ituring.com.cn/article/66566)
 -----
 
@@ -47,7 +47,7 @@
 - [Chrome 安装包下载](https://www.google.cn/chrome/browser/desktop/index.html?standalone=1&platform=win64)
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 
-   _下面这些用途不大的_
+  _下面这些用途不大的_
 -----------
 
 - win10 终端 1903+支持 [terminal](https://github.com/microsoft/terminal)
