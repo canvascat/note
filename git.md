@@ -90,3 +90,13 @@ git merge dev # 将dev分支合并到当前分支
 `git branch -d dev` 删除 dev 分支
 
 合并 dev 和 master 分支
+
+# SVN 的简单命令
+
+```bash
+svn chaeckout (co) URL [PATH]
+svn update (up) [PATH...]
+svn commit (ci) [PATH...]
+svn add [PATH...]
+svn deltet (rm) [PATH...]
+```
