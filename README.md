@@ -5,6 +5,7 @@
 ## 收藏夹
 
 ### js
+- vue3 + ts demos 👉 [vue use](https://github.com/antfu/vueuse)
 - 针对面试应该比较有用 [神三元的博客](http://47.98.159.95/my_blog/)
 - [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37)
 - 开源的JS学习资料 --> [The Modern JavaScript Tutorial](https://zh.javascript.info/),[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
