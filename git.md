@@ -91,6 +91,16 @@ git merge dev # 将dev分支合并到当前分支
 
 合并 dev 和 master 分支
 
+## 更新fork仓库
+```bash
+# 添加 fetch 源 upstream
+git remote add upstream URL
+# 从 upstream 源拉取代码
+git fetch upstream
+# 将 upstream 合并到 master
+git merge upstream/master
+```
+
 # SVN 的简单命令
 
 ```bash
