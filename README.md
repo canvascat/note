@@ -1,44 +1,40 @@
-# note
+## 常用资源归档
 
-主要是Javascript，其他是**真**的收藏。
+### JavaScript
 
-## 收藏夹
-
-### js
 - vue3 + ts demos 👉 [vue use](https://github.com/antfu/vueuse)
-- 针对面试应该比较有用 [神三元的博客](http://47.98.159.95/my_blog/)
 - [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37)
-- 开源的JS学习资料 --> [The Modern JavaScript Tutorial](https://zh.javascript.info/),[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
-- Vue.js 技术揭秘：https://ustbhuangyi.github.io/vue-analysis/algorithms
-- 算法救命稻草 -> [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
-- js音频可视化, 之前做语音进度条借鉴(~~抄袭~~)过大量源码 [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
+- 开源的 JS 学习资料 --> [The Modern JavaScript Tutorial](https://zh.javascript.info/),[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/algorithms)
+- [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- js 音频可视化 [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
 - vue-design：http://hcysun.me/vue-design/zh/
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
-- 官网经常挂掉 [Electron中文文档](https://github.com/electron/i18n/tree/master/content/current/zh-CN)
+- [Electron 中文文档](https://github.com/electron/i18n/tree/master/content/current/zh-CN)
 - TypeScript Deep Dive 的中文版：[深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese)
 - [ECMAScript 6 入门](https://github.com/ruanyf/es6tutorial)
 - js 库[underscore](https://github.com/jashkenas/underscore)
-- [前端开发面试题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
-- 这个算是轻松简单吧 [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
+- 面试 [神三元的博客](http://47.98.159.95/my_blog/)，[前端开发面试题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 - [前端性能优化](https://github.com/gauseen/blog/issues/13)
-- node监听文件变化，`fs.watch`是真的难用，试试这个🚀 -> [chokidar](https://github.com/paulmillr/chokidar)
-- [CSS 权威指南第四版 中文](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
-- [VSCode解析1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode解析2](https://codeteenager.github.io/vscode-analysis/)
+- node 监听文件变化，`fs.watch`是真的难用，试试这个 🚀 -> [chokidar](https://github.com/paulmillr/chokidar)
+- [CSS 权威指南第四版](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)、[CSS 权威指南第四版](https://github.com/Jack-Sparrow/CSS-The-Definitive-Guide-4th-zh-CN)
+- [VSCode 解析 1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode 解析 2](https://codeteenager.github.io/vscode-analysis/)
 - [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
-- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / js注释[JSDoc](https://jsdoc.zcopy.site/)
+- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / js 注释[JSDoc](https://jsdoc.zcopy.site/)
 - [Promises/A+规范 CN](https://www.ituring.com.cn/article/66566)
------
+- [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
+
+---
 
 - [Lodash 的替代方法](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore)
-- [CSS 权威指南第四版](https://github.com/Jack-Sparrow/CSS-The-Definitive-Guide-4th-zh-CN)
 - [awesome electron](https://github.com/sindresorhus/awesome-electron)
 - [flutter 实战](https://github.com/flutterchina/flutter-in-action)
 - [css modules](https://github.com/css-modules/css-modules)
-- Markdown editor [stackedit](https://github.com/benweet/stackedit)
-- Markdown editor[slate](https://github.com/ianstormtaylor/slate)
+- Markdown editor [stackedit](https://github.com/benweet/stackedit)、[slate](https://github.com/ianstormtaylor/slate)
 - [webpack](https://webpack.docschina.org/)
+- [vite](https://github.com/vitejs/vite)
 - [Eslint](https://cn.eslint.org)
-
+- [js md5](https://github.com/satazor/js-spark-md5)
 
 ### tools
 
@@ -49,7 +45,8 @@
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 
   _下面这些用途不大的_
------------
+
+---
 
 - win10 终端 1903+支持 [terminal](https://github.com/microsoft/terminal)
 - [nvm for windows](https://github.com/coreybutler/nvm-windows)
@@ -74,7 +71,7 @@
 - [100 Days Of ML Code](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 - [深度学习](https://github.com/exacity/deeplearningbook-chinese)
 
-### 书籍
+### Books
 
 - [https://github.com/thinkphp/nodejs-books](https://github.com/thinkphp/nodejs-books)
 - [https://github.com/threerocks/studyFiles](https://github.com/threerocks/studyFiles)
