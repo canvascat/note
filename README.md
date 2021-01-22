@@ -8,7 +8,7 @@
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/algorithms)
 - [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - js 音频可视化 [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
-- vue-design：http://hcysun.me/vue-design/zh/
+- [vue-design](http://hcysun.me/vue-design/zh/)
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 - [Electron 中文文档](https://github.com/electron/i18n/tree/master/content/current/zh-CN)
 - TypeScript Deep Dive 的中文版：[深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese)
@@ -20,7 +20,7 @@
 - [CSS 权威指南第四版](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)、[CSS 权威指南第四版](https://github.com/Jack-Sparrow/CSS-The-Definitive-Guide-4th-zh-CN)
 - [VSCode 解析 1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode 解析 2](https://codeteenager.github.io/vscode-analysis/)
 - [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
-- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / js 注释[JSDoc](https://jsdoc.zcopy.site/)
+- 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / [JSDoc](https://jsdoc.zcopy.site/)
 - [Promises/A+规范 CN](https://www.ituring.com.cn/article/66566)
 - [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 
