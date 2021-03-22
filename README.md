@@ -43,6 +43,7 @@
 - [Eslint](https://cn.eslint.org)
 - [Electron 中文文档](https://github.com/electron/i18n/tree/master/content/current/zh-CN)
 - [js md5](https://github.com/satazor/js-spark-md5)
+- [babel handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/README.md)
 
 ---
 
