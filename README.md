@@ -11,6 +11,7 @@
 - [ECMAScript 6 入门](https://github.com/ruanyf/es6tutorial)
 - [The Modern JavaScript Tutorial](https://zh.javascript.info/)
 - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
+- [Eloquent JavaScript 3rd edition](https://eloquentjavascript.net/) / [📖 zhCN](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
 - [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 
