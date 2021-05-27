@@ -52,3 +52,8 @@
 - [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [leetcode 解题](https://github.com/azl397985856/leetcode)
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+- [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)
+- [free-programming-books-zh](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md)
