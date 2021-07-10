@@ -33,6 +33,7 @@
 - [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37)
 - 面试 [神三元的博客](http://47.98.159.95/my_blog/)，[前端开发面试题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 - [前端性能优化](https://github.com/gauseen/blog/issues/13)
+- [web移动端开发注意事项](https://github.com/JowayYoung/mobile-devpit)
 
 ---
 
