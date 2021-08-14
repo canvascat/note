@@ -4,10 +4,8 @@
 
 ## 常用资源归档
 
-- vue3 + ts demos 👉 [vue use](https://github.com/antfu/vueuse)
-- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/algorithms)
-- [vue-design](http://hcysun.me/vue-design/zh/)
-
+- [vue3 use](https://github.com/antfu/vueuse)
+- [learn vue2](https://vue-js.com/learn-vue/)/[Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/algorithms)/[vue-design](http://hcysun.me/vue-design/zh/)
 - [ECMAScript 6 入门](https://github.com/ruanyf/es6tutorial)
 - [The Modern JavaScript Tutorial](https://zh.javascript.info/)
 - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
@@ -15,7 +13,7 @@
 - [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 
-- TypeScript Deep Dive 的中文版：[深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese)
+- [TypeScript 入门教程](https://ts.xcatliu.com/)/[深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese)
 - [函数式编程指北 mostly adequate guide](https://github.com/llh911001/mostly-adequate-guide-chinese)
 - [Promises/A+规范 CN](https://www.ituring.com.cn/article/66566)
 - js 库[underscore](https://github.com/jashkenas/underscore)
@@ -25,7 +23,6 @@
 - [VSCode 解析 1](https://github.com/fzxa/VSCode-sourcecode-analysis)、[VSCode 解析 2](https://codeteenager.github.io/vscode-analysis/)
 - 来吧，把代码整干净点 → [clean code javascript](https://github.com/beginor/clean-code-javascript) / [JSDoc](https://jsdoc.zcopy.site/)
 
-- [CSS 权威指南第四版](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh)
 - [CSS 权威指南第四版](https://github.com/Jack-Sparrow/CSS-The-Definitive-Guide-4th-zh-CN)
 - [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 - [css modules](https://github.com/css-modules/css-modules)
