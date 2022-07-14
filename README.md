@@ -38,7 +38,7 @@
 - [awesome electron](https://github.com/sindresorhus/awesome-electron)
 - Markdown editor [stackedit](https://github.com/benweet/stackedit)、[slate](https://github.com/ianstormtaylor/slate)
 - [webpack](https://webpack.docschina.org/)
-- [vite](https://github.com/vitejs/vite)
+- [vite](https://github.com/vitejs/vite) vite3真好用😹
 - [Eslint](https://cn.eslint.org)
 - [Electron 中文文档](https://github.com/electron/i18n/tree/master/content/current/zh-CN)
 - [js md5](https://github.com/satazor/js-spark-md5)
